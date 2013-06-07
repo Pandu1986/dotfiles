@@ -21,3 +21,5 @@ fi
 if [ -f ~/.bash_dotfiles.sh ]; then
     . ~/.bash_dotfiles.sh
 fi
+
+eval "$(rbenv init -)"
